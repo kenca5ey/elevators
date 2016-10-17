@@ -16,7 +16,7 @@ var LiftMaster = (function (LiftMaster) {
             return Math.abs(a.getCurrentFloor() - floorNumber) - Math.abs(b.getCurrentFloor() - floorNumber);
         });
 
-        this.lifts[0].addRequest(floorNumber, null);
+        this.lifts[0].addDestination(floorNumber, null);
 
         //@todo build logic for selecting the best placed elevator based on criteria
     };
