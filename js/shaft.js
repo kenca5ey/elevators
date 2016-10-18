@@ -1,7 +1,7 @@
 var Shaft = (function (Shaft) {
     'use strict';
 
-    var Shaft = function (conf, id) {
+    Shaft = function (conf, id) {
         this.conf = conf;
         this.id = id;
         this.initDom();

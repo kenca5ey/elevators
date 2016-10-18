@@ -1,7 +1,7 @@
 var Lift = (function (Lift) {
     'use strict';
 
-    var Lift = function (conf, id) {
+    Lift = function (conf, id) {
         this.id = id;
         this.conf = conf;
         this.init();
@@ -37,7 +37,7 @@ var Lift = (function (Lift) {
         } else {
             this.status.downwardDestinations.push(floorNum);
             this.status.downwardDestinations.sort(function (a, b) {
-                return b - a
+                return b - a;
             });
         }
     };
@@ -143,5 +143,4 @@ var Lift = (function (Lift) {
     
     return Lift;
 
-})
-(Lift || {});
+})(Lift || {});

@@ -22,7 +22,7 @@ var Floor = (function () {
             btnDom.addEventListener('click', function () {
                 PubSub.trigger('button clicked', [me.floorNumber, btnText]);
             });
-            frag.appendChild(btnDom)
+            frag.appendChild(btnDom);
         });
         this.dom.appendChild(frag);
     };
