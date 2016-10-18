@@ -1,6 +1,6 @@
 var LiftMaster = (function (LiftMaster) {
 
-    var LiftMaster = function (conf, building) {
+    LiftMaster = function (conf, building) {
         this.conf = conf;
         this.building = building;
         this.lifts = this.building.getLifts();

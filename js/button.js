@@ -1,7 +1,7 @@
 var Button = (function (Button) {
     'use strict';
 
-    var Button = function (liftId, floorNumber) {
+    Button = function (liftId, floorNumber) {
         this.liftId = liftId;
         this.floorNumber = floorNumber;
         this.initDom(floorNumber);

@@ -1,6 +1,6 @@
-var Building = (function () {
+var Building = (function (Buiding) {
 
-    var Building = function (conf) {
+    Building = function (conf) {
         this._wrap = document.getElementsByClassName('building')[0];
         this.shafts = [];
         this.conf = conf;
