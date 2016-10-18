@@ -2,5 +2,5 @@
 
 Logic around elevators in a building
 
-Demo at https://rawgit.com/kenca5ey/elevators/master/index.html
+Demo at https://kenca5ey.github.io/elevators/
 
